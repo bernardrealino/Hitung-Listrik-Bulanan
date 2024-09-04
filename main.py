@@ -16,3 +16,4 @@ usage_time = st.text_input('Usage Time (Hrs)/Day')
 
 if st.button('Count'):
     st.write("Rp. " + f"{count_bill(int(power), int(usage_time)):,}" + "/month")
+st.write("bernardrealino.com")
